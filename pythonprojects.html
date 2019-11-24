@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            if($(window).width() >= 800){
+                $('.projects-p').animate({
+                    fontSize: '35px'
+                }, 500);
+            } else if($(window).width() < 800){
+                $('.projects-p').animate({
+                    fontSize: '22px'
+                }, 500);
+            };
+        });
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+    <title>Shreyas - Python Projects</title>
+</head>
+<body>
+    
+    <div class="projects-p" id="projects">
+        <a href="https://trinket.io/python/dde707ce42?outputOnly=true&runOption=run&showInstructions=true">
+            <div class="pp" id="pp1">
+                Swimming Turtle
+            </div>
+        </a>
+        <a href="https://trinket.io/python/8c48a99309?outputOnly=true&runOption=run">
+            <div class="pp" id="pp2">
+                Rock, Paper & Scissors
+            </div>
+        </a>
+        <a href="https://trinket.io/python/ca579c1082?outputOnly=true&runOption=run">
+            <div class="pp" id="pp3">
+                World Quiz
+            </div>
+        </a>
+        <a href="https://github.com/shreyasghansawant/Age-Calculator-in-Tkinter">
+            <div class="pp" id="pp4">
+                Age Calculator
+            </div>
+        </a>
+        <a href="morewebsites.html">
+            <div class="pp" id="pp5">
+                More Websites
+            </div>
+        </a>
+        <a href="http://shreyas2003.epizy.com/">
+            <div class="pp" id="pp6">
+                Back to Website
+            </div>
+        </a>
+    </div>
+
+</body>
+</html>
